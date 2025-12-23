@@ -12,6 +12,6 @@ COMMENT ON DATABASE mosip_mockidentitysystem IS 'Mock identity related data is s
 
 DROP SCHEMA IF EXISTS mockidentitysystem CASCADE;
 CREATE SCHEMA mockidentitysystem;
-ALTER SCHEMA mockidentitysystem OWNER TO postgres;
+ALTER SCHEMA mockidentitysystem OWNER TO mockidsystemuser;
 ALTER DATABASE mosip_mockidentitysystem SET search_path TO mockidentitysystem,pg_catalog,public;
 
