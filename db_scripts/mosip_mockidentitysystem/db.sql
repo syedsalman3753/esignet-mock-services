@@ -3,7 +3,7 @@ CREATE DATABASE mosip_mockidentitysystem
 	LC_COLLATE = 'en_US.UTF-8' 
 	LC_CTYPE = 'en_US.UTF-8' 
 	TABLESPACE = pg_default 
-	OWNER = postgres
+	OWNER = mockidsystemuser
 	TEMPLATE  = template0;
 
 COMMENT ON DATABASE mosip_mockidentitysystem IS 'Mock identity related data is stored in this database';
